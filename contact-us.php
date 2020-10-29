@@ -45,16 +45,18 @@ include("includes/header.php");
             <h2>Comment Board</h2>
             <?php include("blogfile.txt"); ?>
         </div>
-        <form id="comment" method="post" action="">
+        <form id="comment" method="post" action="#">
             <div class="form-container">
                 <div class="form-group">
                     <label for="title">Title</label>
-                    <input class="form-control" type="text" name="title">
+                    <input class="form-control" type="text" name="title" id="title">
+                    
                 </div>
         
                 <div class="form-group">
                     <label for="message">Message</label>
-                    <textarea class="form-control" name="message" id="" cols="30" rows="10"></textarea>
+                    <textarea class="form-control" id="message" name="message" cols="30" rows="10"></textarea>
+                
                 </div>
 
                 <input class="btn btn-primary btn-lg" type="submit" name="submit" value="Submit Info">
