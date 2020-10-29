@@ -1,0 +1,544 @@
+/*! HTML5 Boilerplate v7.3.0 | MIT License | https://html5boilerplate.com/ */
+
+/* main.css 2.0.0 | MIT License | https://github.com/h5bp/main.css#readme */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+   html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    font: 1.6rem/1.5 'Merriweather', serif;
+    /* background-color: #d1d1d1; */
+    background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), 
+                url(../img/title-birmingham-1919.jpg);
+    background-size: auto;
+    }
+  
+  header {
+    height: 500px;
+    padding-bottom: 20px;
+    background: url(../img/960-peakytoms-booze.jpg);
+  }
+  
+  main {
+    font-weight: 700;
+    margin: 20px;
+  }
+  
+  footer {
+    width: 100%;
+    padding: 2rem;
+    margin: 0 auto;
+    color: #ffffff;
+    background-color: #3b3235;
+    height: 5rem;
+    font-size: 1rem;
+    text-align: center;
+  }
+  
+  
+  ::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+  }
+  
+  ::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+  }
+  
+  /*
+    * A better looking default horizontal rule
+    */
+  
+  hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    /* border-top: 1px solid #ccc; */
+    margin: 1em 0;
+    padding: 0;
+  }
+  
+  /*
+    * Remove the gap between audio, canvas, iframes,
+    * images, videos and the bottom of their containers:
+    * https://github.com/h5bp/html5-boilerplate/issues/440
+    */
+  
+  audio,
+  canvas,
+  iframe,
+  img,
+  svg,
+  video {
+    vertical-align: middle;
+  }
+  
+  /*
+    * Remove default fieldset styles.
+    */
+  
+  fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /*
+    * Allow only vertical resizing of textareas.
+    */
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  /* ==========================================================================
+      Browser Upgrade Prompt
+      ========================================================================== */
+  
+  .browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+  }
+  
+  /* ==========================================================================
+      Author's custom styles
+      ========================================================================== */
+  
+  #wrapper {
+    margin: 0 auto;
+    margin-top: 1rem;
+    margin-bottom: 10px;
+    box-shadow: 0 0 7px #000;
+  }
+  
+  nav ul {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.7);
+    font: 700 1.6rem/1.5 'Merriweather', serif;
+    list-style: none;
+    margin: 0;
+  }
+  
+  
+  h1 {
+    color: #ebebeb;
+    font: 700 4.8rem/1.5 'Merriweather', serif;
+  }
+  
+  .featured-container {
+    display: flex;
+    margin-bottom: 3rem;
+  }
+  
+  .featured,
+  .second-feature {
+    padding: 5%;
+    background-color: #665C5C;
+    box-shadow: 0 0 8px #555;
+  
+  }
+  
+  h3 {
+    margin-bottom: 0.5rem;
+    font: 400 2.25rem/1.5 'Merriweather', serif;
+  }
+  
+  .featured p,
+  .second-feature p {
+    margin-top: 0.5rem;
+  }
+  
+  .subheading-container {
+    margin: 0 2rem 2rem;
+  
+  }
+  
+  h2 {
+    font: 700 2.4rem/1.5 'Merriweather', serif;
+    color: #3e2400;
+  }
+  
+  span {
+    font-size: 2.4rem;
+    font-weight: 700;
+  }
+  
+  figcaption {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #724707;
+  }
+  
+  /************ ion icon *********/
+  ion-icon {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .icon li:nth-child(1) {
+    color: #55B6EB 
+  }
+  
+  
+  /*********** About page ************/
+  .about-para-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .about-intro-container img {
+    width: 100%;
+    box-shadow: 0 0 5px #555;
+  }
+  
+  .trailer {
+    font-weight: 700;
+    border-bottom: 1px solid #000;
+  }
+  
+  /******** Contact Us *********/
+  form {
+    font-size: 2.4rem;
+  }
+  
+  input[type="text"] {
+    font-size: 1.8rem;
+  }
+  
+  .newEntry .title {
+    font-size: 2.4rem;
+  }
+  
+  .newEntry {
+      box-shadow: 0 0 5px #000;
+      margin: 2rem 1rem;
+      padding: 2rem;
+  }
+  
+  .comment-board h2 {
+      margin: 1rem;
+      text-align: center;
+  }
+  
+  .timedate {
+      text-align: right;
+  }
+  
+  .form-container {
+    width: 60%;
+    margin: 0 1rem;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  /* unvisited link and visited link*/
+  a:link,
+  a:visited {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  
+  /* mouse over link and selected link*/
+  a:hover,
+  a:active {
+    color: #ffffff;
+  
+  }
+  
+  header .menu a:hover,
+  header .menu a:active {
+    color: #000;
+    border-bottom: 2px solid #000;
+  }
+    /* ==========================================================================
+       Helper classes
+       ========================================================================== */
+    
+    /*
+     * Hide visually and from screen readers
+     */
+    
+    .hidden {
+      display: none !important;
+    }
+    
+    /*
+    * Hide only visually, but have it available for screen readers:
+    * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+    *
+    * 1. For long content, line feeds are not interpreted as spaces and small width
+    *    causes content to wrap 1 word per line:
+    *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+    */
+    
+    .sr-only {
+      border: 0;
+      clip: rect(0, 0, 0, 0);
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      white-space: nowrap;
+      width: 1px;
+      /* 1 */
+    }
+    
+    /*
+    * Extends the .sr-only class to allow the element
+    * to be focusable when navigated to via the keyboard:
+    * https://www.drupal.org/node/897638
+    */
+    
+    .sr-only.focusable:active,
+    .sr-only.focusable:focus {
+      clip: auto;
+      height: auto;
+      margin: 0;
+      overflow: visible;
+      position: static;
+      white-space: inherit;
+      width: auto;
+    }
+    
+    /*
+    * Hide visually and from screen readers, but maintain layout
+    */
+    
+    .invisible {
+      visibility: hidden;
+    }
+    
+    /*
+    * Clearfix: contain floats
+    *
+    * For modern browsers
+    * 1. The space content is one way to avoid an Opera bug when the
+    *    `contenteditable` attribute is included anywhere else in the document.
+    *    Otherwise it causes space to appear at the top and bottom of elements
+    *    that receive the `clearfix` class.
+    * 2. The use of `table` rather than `block` is only necessary if using
+    *    `:before` to contain the top-margins of child elements.
+    */
+    
+    .clearfix:before,
+    .clearfix:after {
+      content: " ";
+      /* 1 */
+      display: table;
+      /* 2 */
+    }
+    
+    .clearfix:after {
+      clear: both;
+    }
+
+/* ==========================================================================
+    EXAMPLE Media Queries for Responsive Design.
+    These examples override the primary ('mobile first') styles.
+    Modify as content requires.
+    ========================================================================== */
+
+@media only screen and (min-width: 300px) {
+  #wrapper {
+    width: 100%;
+  }
+
+  h1 {
+    position: relative;
+    top: 40%; left: 10%;
+    z-index: -1;
+  }
+
+  nav ul {
+    flex-direction: column;
+    text-align: left;
+    width: 100%;
+    position: absolute;
+    top: 1%;
+    transition: top 0.5s ease-out;
+  }
+  
+  nav ul li {
+    padding-left: 15%;
+    line-height: 4;
+    border-bottom: 0.1rem solid #4b2828;
+  }
+
+/*** toggle icon**/
+  .toggle-icon {
+      position: absolute;
+      top: 2%;
+      right: 2%;
+  }
+  .toggle-icon span {
+      width: 6rem;
+      height: 1rem;
+      margin-bottom: 0.6rem;
+      border-radius: 10rem;
+      background-color: #d75b28;
+      display: block;
+      cursor: pointer;
+      position: relative;
+  }
+
+  .is-active h1 {
+    z-index: 0;
+  }  
+   
+  .is-active nav ul {
+    top: -40rem;
+    transition: top 0.5s ease-in;
+  }
+
+  .featured-container{
+    flex-direction: column;
+  }
+
+  .featured, .second-feature {
+    margin: 2% 10% 2% 4%;
+  } 
+  
+  .about-para-container{
+    flex-direction: column;
+  }
+
+/**** ion icon *****/
+  ion-icon {
+    position: absolute;
+    font-size: 3.6rem;
+    z-index: 1;
+  }
+  .icon li:nth-child(1) {
+    position: absolute;
+    top: 2%;
+  }
+
+  .icon li:nth-child(2) {
+    position: absolute;
+    top: 10%;
+    left: 0;
+    color: red;
+  }
+
+  .icon li:nth-child(3) {
+    position: absolute;
+    top: 18%; left: 0;
+    color: #3E87EF;
+  }
+
+  .icon li:nth-child(4) {
+    position: absolute;
+    top: 26%; left: 0;
+    color: #DB4958;
+  }
+
+
+}
+
+@media only screen and (min-width: 768px) {
+  #wrapper {
+    width: 960px;
+  }
+  
+  h1 {
+    position: relative;
+    left: 22%; top: 50%;
+    z-index: 0;
+  }
+
+  nav ul {
+    width: 960px;
+    height: 10rem;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 2rem;
+  }
+
+  nav ul li {
+    padding-left: 0;
+    line-height: 0;
+    border-bottom: none;
+    margin: 3rem;
+  }
+
+  .toggle-icon {
+    display: none;
+  }
+
+  /**** ion icon *****/
+  ion-icon {
+    font-size: 5.6rem;
+    position: fixed;
+  }
+  
+  .icon li:first-child {
+    top: unset;
+    bottom: 34%; left: 1%;
+  }
+  .icon li:nth-child(2) {
+    top: unset;
+    bottom: 26%;
+    left: 1%;
+    color: red;
+  }
+
+  .icon li:nth-child(3) {
+    top: unset;
+    bottom: 18%; left: 1%;
+    color: #3E87EF;
+  }
+
+  .icon li:nth-child(4) {
+    top: unset;
+    bottom: 10%; left: 1%;
+    color: #DB4958;
+  }
+  
+  .featured-container {
+    flex-direction: row;
+  }
+  
+  .about-intro-container {
+    width: 48%;
+  }
+  
+  .featured, .second-feature {
+    width: 140%;
+    height: 42rem;
+    margin: 0;
+    padding: 3%;
+  }
+
+  .second-feature {
+    width: 200%;
+    height: 35rem;
+    margin-top: 2rem;
+  }
+
+  .about-para-container {
+    /* display: flex; */
+    flex-direction: row;
+    
+  }
+}
