@@ -17,20 +17,33 @@ include("includes/header.php");
             
         </div>
     </div>
-
-    <div class="trailer"><a href="https://www.youtube.com/watch?v=oVzVdvGIC7U">Season 1 Official Trailer (click here)</a></div>
+    <hr>
+    
+    <div class="trailer">
+        <h2>Season 1 Official Trailer</h2>
+        <hr>
+        <iframe width="1280" height="720" src="https://www.youtube.com/embed/oVzVdvGIC7U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+    </div>
+    <hr>
+    
+    <div class="trailer">
+        <h2>Season 2 Official Trailer</h2>
+        <hr>
+        <iframe width="1280" height="720" src="https://www.youtube.com/embed/uIJ07Wg5i0k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
     <hr>
 
     <p>The second series is set two years after the first and sees the Shelby family expand their criminal organization in the South and North of London. In the meantime, they are maintaining a stronghold in their Birmingham heartland. It begins in 1921 and ends with a climax at Epsom racecourse on Derby Day in June 1922.</p>
     <hr>
-    
-    <div class="trailer"><a href="https://www.youtube.com/watch?v=uIJ07Wg5i0k">Season 2 Official Trailer (click here)</a></div>
+
+    <div class="trailer">
+        <h2>Season 3 Official Trailer</h2>
+        <hr>
+        <iframe width="1280" height="720" src="https://www.youtube.com/embed/xGJPiKc06BM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
     <hr>
 
     <p>The third series is set two years after Series two, in 1924. It follows Tommy and his family as they enter an even more dangerous world as they once again expand, this time, internationally. One year after a rift divides the Shelbys, they become targets of a Mafia vendetta, forcing the family to reunite and seek help from a shady new ally.</p>
-    <hr>
-
-    <div class="trailer"><a href="https://www.youtube.com/watch?v=xGJPiKc06BM">Season 3 Official Trailer (click here)</a></div>
     <hr>
 
     <div class="about-para-container">
