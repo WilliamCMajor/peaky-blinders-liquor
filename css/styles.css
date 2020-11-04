@@ -17,22 +17,19 @@
   
   body {
     font: 1.6rem/1.5 'Merriweather', serif;
-    /* background-color: #d1d1d1; */
-    background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), 
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), 
                 url(../img/title-birmingham-1919.jpg);
-    background-size: auto;
     }
   
   header {
     height: 500px;
     padding-bottom: 20px;
     background: url(../img/960-peakytoms-booze.jpg);
-    background-size: cover;
   }
   
   main {
-    font-weight: 700;
     margin: 20px;
+    color: #000000;
   }
   
   footer {
@@ -237,8 +234,6 @@
   }
   
   .comment-board h2 {
-      margin: 1rem;
-      text-align: center;
       font-size: 3.6rem;
   }
   
@@ -365,6 +360,18 @@
     ========================================================================== */
 
 @media only screen and (min-width: 300px) {
+  body {
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  header {
+    background-size: cover;
+    background-position: center center;
+  }
+
   #wrapper {
     width: 100%;
   }
@@ -459,8 +466,8 @@
   }
   
   iframe {
-    width: 440px;
-    height: 300px;
+    width: 100%;
+    height: 260px;
     box-shadow: 0 0 5px #000;
   }
   

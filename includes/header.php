@@ -42,7 +42,7 @@
 
 <body>
     <ul class="icon">
-        <li><a href="https://www.twitter.com/"><ion-icon name="logo-twitter"></ion-icon></a></li>
+        <li><a href="https://twitter.com/LiquorPeaky"><ion-icon name="logo-twitter"></ion-icon></a></li>
         <li><a href="https://www.youtube.com/"><ion-icon name="logo-youtube"></ion-icon></a></li>
         <li><a href="https://www.facebook.com/"><ion-icon name="logo-facebook"></ion-icon></a></li>
         <li><a href="https://www.pinterest.com/"><ion-icon name="logo-pinterest"></ion-icon></a></li>
@@ -59,7 +59,7 @@
             <li><a href="product.php">Products</a></li>
             <!-- <li><a href="service.php">Services</a></li> -->
             <!-- <li><a href="location.php">Locations</a></li> -->
-            <li><a href="contact-us.php">Contact Us</a></li>
+            <li><a href="contact-us.php">What's New</a></li>
           </ul>
         </div>
       </nav><!-- end of top nav -->
