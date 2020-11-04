@@ -1,6 +1,13 @@
 <?php include("includes/header.php"); ?>
 
     <main>
+        <div>
+            <h2>Recent Updates</h2>
+            <p>Follow us on twitter <a href="https://twitter.com/LiquorPeaky">(click here)</a>         Nov.3 2020</p>
+            <p>Email us at <a href="peakybliquor@gmail.com">peakybliquor@gmail.com</a></p>
+        </div>
+        <hr>
+
         <div class="comment-board">
             <h2>Comments Board</h2>
             <p>Please leave any comments or feedback</p>
