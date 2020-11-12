@@ -43,9 +43,9 @@
 <body>
     <ul class="icon">
         <li><a href="https://twitter.com/LiquorPeaky"><ion-icon name="logo-twitter"></ion-icon></a></li>
-        <li><a href="https://www.youtube.com/"><ion-icon name="logo-youtube"></ion-icon></a></li>
-        <li><a href="https://www.facebook.com/"><ion-icon name="logo-facebook"></ion-icon></a></li>
-        <li><a href="https://www.pinterest.com/"><ion-icon name="logo-pinterest"></ion-icon></a></li>
+        <li><a href="https://www.youtube.com/results?search_query=peaky+blinders"><ion-icon name="logo-youtube"></ion-icon></a></li>
+        <li><a href="https://www.facebook.com/williamhsq1209/posts/1251177175259658"><ion-icon name="logo-facebook"></ion-icon></a></li>
+        <li><a href="https://www.pinterest.ca/search/pins/?rs=ac&len=2&q=peaky%20blinders&eq=peaky&etslf=6423&term_meta[]=peaky%7Cautocomplete%7C0&term_meta[]=blinders%7Cautocomplete%7C0"><ion-icon name="logo-pinterest"></ion-icon></a></li>
     </ul>
 
   <div id="wrapper"><!-- Wrapper start -->
@@ -59,7 +59,7 @@
             <li><a href="product.php">Products</a></li>
             <!-- <li><a href="service.php">Services</a></li> -->
             <!-- <li><a href="location.php">Locations</a></li> -->
-            <li><a href="contact-us.php">What's New</a></li>
+            <li><a href="what's-new.php">What's New</a></li>
           </ul>
         </div>
       </nav><!-- end of top nav -->
